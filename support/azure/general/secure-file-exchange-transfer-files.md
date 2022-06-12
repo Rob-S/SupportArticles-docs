@@ -1,7 +1,7 @@
 ---
 title: How to securely transfer files to Microsoft Support
 description: Provides information to help you fast and secure transfer files with Microsoft Support.
-ms.date: 08/14/2020
+ms.date: 05/17/2022
 author: genlin
 ms.author: genli
 ms.service: azure
@@ -83,11 +83,15 @@ When you open a support case and the country/region that you specify is:
 |Secure File Exchange| `https://support.microsoft.com` |
 |Personal Microsoft account sign-in| `https://login.live.com` |
 |Work or school Microsoft account sign-in| `https://login.microsoftonline.com` |
+|Microsoft U.S. Government Cloud services (Azure Gov, Office 365 GCC High and DoD)| `https://dtmffprodclient.usgovtrafficmanager.net`|
 |Other| `https://api.dtmnebula.microsoft.com` |
 |Other (Microsoft Cloud Deutschland) - For Germany only| `https://dtmbfprodapi.azuretrafficmanager.de`|
+
   
 ## What happens when my case is closed?
 
 - The Secure File Exchange workspace link that you received from the Microsoft Support Professional will expire 90 days after it's issued to you, regardless of whether the service request is opened or closed.  If your link has expired and your case is active, ask your Microsoft Support Professional for a new link.
 - When the service request is closed by the Microsoft Support Professional, the workspace itself will be inaccessible. If the service request is reopened, and the link hasn't expired, the workspace will be accessible.
 - 90 days after the service request is closed, all files in the workspace and the workspace itself will be permanently deleted.
+
+[!INCLUDE [Azure Help Support](../../includes/azure-help-support.md)]
